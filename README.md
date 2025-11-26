@@ -29,7 +29,12 @@ __Procedure__:
 7) Low-pass filter to recover message
 
    __Tabulation__:
+![WhatsApp Image 2025-11-26 at 19 54 31_c505ccc0](https://github.com/user-attachments/assets/93a66414-40d7-4faf-9049-5c04d327bba0)
+![WhatsApp Image 2025-11-26 at 19 54 30_a3407294](https://github.com/user-attachments/assets/3d874c5d-e2f1-4713-a354-029a3cde944a)
+
 
    __Output__:
+![WhatsApp Image 2025-11-26 at 19 44 47_211dc51d](https://github.com/user-attachments/assets/94d6604b-a741-4447-97ce-ffa7aedeb198)
 
    __Result__:
+the message,carrier and amplitude modulation signal will be displayed in separate plots using python.
