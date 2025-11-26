@@ -31,6 +31,27 @@ __Procedure__:
    __Tabulation__:
 ![WhatsApp Image 2025-11-26 at 19 54 31_c505ccc0](https://github.com/user-attachments/assets/93a66414-40d7-4faf-9049-5c04d327bba0)
 ![WhatsApp Image 2025-11-26 at 19 54 30_a3407294](https://github.com/user-attachments/assets/3d874c5d-e2f1-4713-a354-029a3cde944a)
+Program:
+
+import numpy as np
+import matplotlib.pyplot as plt
+Am = 6
+fm = 476
+Ac = 12
+fc = 4760
+fs = 47600
+b = 6.1
+t=np.arange(0, /fm, 1/fs)
+m = Am*np.cos(2*3.14*fm*t)
+plt.subplot(3,1,1)
+plt.plot(t,m)
+c= Ac*np.cos(2*3.14*fc*t)
+plt.subplot(3,1,2)
+plt.plot(t,c)
+s=Ac*np.cos(2*3.14*fc*t+b*np.sin(2*3.14*fm*t))
+plt.subplot(3,1,3)
+plt.plot(t,s)
+
 
 
    __Output__:
